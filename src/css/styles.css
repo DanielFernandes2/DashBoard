@@ -1,0 +1,49 @@
+/* Estilos personalizados */
+ 
+body {
+    font-family: 'Arial', sans-serif;
+}
+ 
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+ 
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+ 
+.sidebar-header img {
+    width: 100px;
+}
+ 
+.nav-link {
+    font-size: 1.1rem;
+}
+ 
+.nav-link.active {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+ 
+.card {
+    margin-bottom: 1rem;
+}
+ 
+.card-header {
+    font-weight: bold;
+}
+ 
+.card-body {
+    text-align: center;
+}
+
+.nav-link.active {
+    background-color: #e9ecef; /* Cor de fundo cinza */
+    font-weight: bold;
+    color: #0d6efd !important; /* Cor do texto (azul do Bootstrap) */
+  }
+  
